@@ -12,14 +12,20 @@ public class MainPolly {
 
         while (true) {
             System.out.println("1. Get Queue.");
+            System.out.println("2. From the beginning");
 
             switch (scanner.nextInt()){
                 case 1 : {
                     queueImpelement.queueAdd();
                     break;
                 }
+                case 2 : {
+                    queueImpelement.queueStrart();
+                    break;
+                }
                 default:
                     System.out.println("ERROR!!!");
+                    break;
             }
         }
     }

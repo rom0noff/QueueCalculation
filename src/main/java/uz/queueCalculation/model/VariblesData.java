@@ -23,5 +23,6 @@ public class VariblesData {
 
     public void setCount(int number) {
         this.count = number;
+
     }
 }

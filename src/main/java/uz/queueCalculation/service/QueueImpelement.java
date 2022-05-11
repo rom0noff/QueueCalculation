@@ -31,5 +31,10 @@ public class QueueImpelement implements NavbatInterface{
 
     }
 
+    @Override
+    public void queueStrart() {
+        variblesData.setCount(0);
+    }
+
 
 }
